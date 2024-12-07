@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="TechNova - Tu portal de tecnología y novedades en tecnología, gadgets y tendencias.">
+        <meta name="keywords" content="tecnología, gadgets, tendencias, noticias, reseñas, guías">
+        <meta name="author" content="TechNova Team">
+        <title>TechNova - Innovación a tu alcance</title>
+        
+        <!-- Favicon -->
+        <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-xxxxxxxxxxxxxxx" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- Estilos principales -->
+        <link rel="stylesheet" href="styles.css">
+    
+        <!-- Open Graph para Redes Sociales -->
+        <meta property="og:title" content="TechNova - Innovación a tu alcance">
+        <meta property="og:description" content="Explora las últimas tendencias tecnológicas, noticias de gadgets y guías prácticas.">
+        <meta property="og:image" content="./img/og-image.jpg">
+        <meta property="og:url" content="https://www.technova.com">
+        <meta property="og:type" content="website">
+        
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="TechNova - Innovación a tu alcance">
+        <meta name="twitter:description" content="Explora las últimas tendencias tecnológicas, noticias de gadgets y guías prácticas.">
+        <meta name="twitter:image" content="./img/og-image.jpg">
+    
+        <!-- Responsividad -->
+        <meta name="theme-color" content="#3498db">
+    </head>
+    
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container">
+            <div class="navbar__brand">
+                <h1>TechNova</h1>
+                <div class="header-icons">
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="./img/twitter.svg" alt="Twitter" class="header-icon">
+                    </a>
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="./img/facebook.svg" alt="Facebook" class="header-icon">
+                    </a>
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="./img/youtube.svg" alt="YouTube" class="header-icon">
+                    </a>
+                </div>
+            </div>
+            <ul class="navbar__menu">
+                <li><a href="#inicio" class="navbar__link">Inicio</a></li>
+                <li><a href="#noticias" class="navbar__link">Noticias</a></li>
+                <li><a href="#reseñas" class="navbar__link">Reseñas</a></li>
+                <li><a href="#guias" class="navbar__link">Guías</a></li>
+                <li><a href="#contacto" class="navbar__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero__background"></div> <!-- Fondo dinámico -->
+        <div class="hero__content container">
+            <h1 class="hero__title">Explora el Futuro en <span>TechNova</span></h1>
+            <p class="hero__description">Mantente a la vanguardia con las últimas tendencias tecnológicas, guías y reseñas expertas.</p>
+            <a href="#noticias" class="btn btn--primary">Explorar Ahora</a>
+        </div>
+    </section>
+    
+    
+
+    <!-- Noticias -->
+    <section id="noticias" class="news container">
+        <h2 class="section-title">Últimas Noticias</h2>
+        <div class="news__grid">
+            <article class="news__item">
+                <img src="./img/news1.jpg" alt="Noticia 1" class="news__image">
+                <h3 class="news__title">El Futuro del 5G</h3>
+                <p class="news__description">Descubre cómo la tecnología 5G transformará la conectividad global.</p>
+                <a href="#" class="btn btn--secondary">Leer más</a>
+            </article>
+            <article class="news__item">
+                <img src="./img/news2.jpeg" alt="Noticia 2" class="news__image">
+                <h3 class="news__title">Inteligencia Artificial en 2024</h3>
+                <p class="news__description">Avances sorprendentes en IA que marcarán un antes y un después.</p>
+                <a href="#" class="btn btn--secondary">Leer más</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact container">
+        <h2 class="section-title">Contáctanos</h2>
+        <form action="https://formspree.io/f/mvgoyboo" method="POST" class="contact__form">
+            <input type="text" name="name" placeholder="Tu Nombre" class="contact__input" required>
+            <input type="email" name="email" placeholder="Tu Correo" class="contact__input" required>
+            <textarea name="message" placeholder="Tu Mensaje" class="contact__textarea" required></textarea>
+            <button type="submit" class="btn btn--primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer container">
+        <p>&copy; 2024 TechNova. Todos los derechos reservados.</p>
+        <div class="footer-icons">
+            <a href="https://twitter.com" target="_blank">
+                <img src="./img/twitter.svg" alt="Twitter" class="footer-icon">
+            </a>
+            <a href="https://facebook.com" target="_blank">
+                <img src="./img/facebook.svg" alt="Facebook" class="footer-icon">
+            </a>
+            <a href="https://youtube.com" target="_blank">
+                <img src="./img/youtube.svg" alt="YouTube" class="footer-icon">
+            </a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
